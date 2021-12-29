@@ -11,14 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Igorios/blog-noticia.git"
   },
   "author": "Igor Borges",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": "",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",

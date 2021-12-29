@@ -13,11 +13,4 @@ app.use(express.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 app.use(express.static('./views/public'));
 
-// A nossa senha
-app.use(session({
-    secret: 'M/c-Y6tP[Hqg^Ub%',
-    resave: false,
-    saveUninitialized: false
-}));
-
 module.exports = app;
